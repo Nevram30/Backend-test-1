@@ -109,10 +109,10 @@ const connectToDB = async () => {
 module.exports = { sequelize, connectToDB };   
 
 
-USING SEQUELIZE CLI / USING PRISMA => https://www.youtube.com/watch?v=CQcaeIhVB8c
+```USING SEQUELIZE CLI / USING PRISMA => https://www.youtube.com/watch?v=CQcaeIhVB8c```
 
-Typescript data modeling
-https://www.youtube.com/watch?v=VyEKwp6Q4fY&t=1528s
+```Typescript data modeling
+https://www.youtube.com/watch?v=VyEKwp6Q4fY&t=1528s```
 
 
 9.)npm i -g sequelize-cli
@@ -120,7 +120,7 @@ https://www.youtube.com/watch?v=VyEKwp6Q4fY&t=1528s
 
 SEQEULIZE COMMANDS
 10.) run commands
-Commands:
+```Commands:
   sequelize db:migrate                        Run pending migrations
   sequelize db:migrate:schema:timestamps:add  Update migration table to have timestamps
   sequelize db:migrate:status                 List the status of all migrations
@@ -142,10 +142,10 @@ Commands:
   sequelize seed:generate                     Generates a new seed file           [aliases: seed:create]
 
 Options:
-  --version  Show version number                                                  [boolean]
+  --version  Show version number                                                  [boolean]```
   --help     Show help    
 
-11.) Start to run   sequelize db:create  
+```11.) Start to run   sequelize db:create  
 12.) npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
 13.) npx sequelize-cli db:migrate / mamigrate sa db
-14.) npx sequelize-cli db:seed:all / insert a new data to db
+14.) npx sequelize-cli db:seed:all / insert a new data to db```
