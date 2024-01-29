@@ -1,4 +1,4 @@
-Create A Rest API
+```Create A Rest API
 
 1) npm init -y
 2) npm install -D typescript
@@ -15,9 +15,9 @@ Create A Rest API
         "noImplicitAny": true,
     },
     "include": ["src/**/*"]
-}
+}```
 
-6) Create a nodemon.json
+```6) Create a nodemon.json
 {
     "watch": ["src"],
     "ext":".ts,.js",
@@ -55,9 +55,9 @@ If using typescript insatall types
 	npm i -D @types/cors
 	npm i -D @types/compression
 7.) npm install --save sequelize
-8.) npm install --save mysql2
+8.) npm install --save mysql2```
 
-DB Connection
+```DB Connection
 
 /index.ts
 import express from "express";
@@ -106,7 +106,7 @@ const connectToDB = async () => {
   }
 };
 
-module.exports = { sequelize, connectToDB };   
+module.exports = { sequelize, connectToDB }; ```  
 
 
 ```USING SEQUELIZE CLI / USING PRISMA => https://www.youtube.com/watch?v=CQcaeIhVB8c```
